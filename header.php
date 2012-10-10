@@ -48,10 +48,10 @@
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="site-header" role="banner">
 		<nav role="navigation" class="site-navigation main-navigation">
-			<h1 class="assistive-text"><?php _e( 'Menu', 'lean' ); ?></h1>
+			<h1 class="assistive-text"><?php _e( 'Categorie', 'lean' ); ?></h1>
 			<div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'lean' ); ?>"><?php _e( 'Skip to content', 'lean' ); ?></a></div>
-
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			<?php wp_list_categories(); ?>
+			<!-- <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?> -->
 		</nav><!-- .site-navigation .main-navigation -->
 
 		<hgroup>

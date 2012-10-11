@@ -35,8 +35,8 @@
 				$categories_list = get_the_category_list( __( ', ', 'lean' ) );
 				if ( $categories_list && lean_categorized_blog() ) :
 			?>
-			<span class="cat-links">
-				<?php printf( __( 'Posted in %1$s', 'lean' ), $categories_list ); ?>
+			<!-- <span class="cat-links">
+				<?php printf( __( 'Categoria: %1$s', 'lean' ), $categories_list ); ?>
 			</span>
 			<?php endif; // End if categories ?>
 
@@ -45,12 +45,14 @@
 				$tags_list = get_the_tag_list( '', __( ', ', 'lean' ) );
 				if ( $tags_list ) :
 			?>
-			<span class="sep"> | </span>
+			<span class="sep"> - </span>
 			<span class="tag-links">
-				<?php printf( __( 'Tagged %1$s', 'lean' ), $tags_list ); ?>
+				<?php printf( __( 'Tag: %1$s', 'lean' ), $tags_list ); ?>
 			</span>
 			<?php endif; // End if $tags_list ?>
 		<?php endif; // End if 'post' == get_post_type() ?>
+
+		<span class="sep"> - </span> -->
 
 		<?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
 		<span class="comments-link"><?php comments_popup_link( __( 'Commenta', 'lean' ), __( '1 Commento', 'lean' ), __( '% Commenti', 'lean' ) ); ?></span>

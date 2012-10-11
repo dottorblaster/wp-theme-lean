@@ -54,7 +54,7 @@
 		<!-- </nav> --><!-- .site-navigation .main-navigation -->
 
 		<hgroup>
-			<h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="./wp-content/themes/lean/img/logo.png"></a></h1>
+			<h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="/wp-content/themes/lean/img/logo.png"></a></h1>
 		</hgroup>
 	</header><!-- #masthead .site-header -->
 

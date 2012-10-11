@@ -67,7 +67,15 @@ body {
 
 #masthead {
 	text-align: center;
+	font-size: 12px;
 	margin-bottom: 70px;
+	margin-top: 5px;
+}
+
+#colophon {
+	margin-top: 10px;
+	font-size: 12px;
+	text-align: center;
 }
 
 article,
@@ -170,7 +178,7 @@ dfn, cite, em, i {
 	font-style: italic;
 }
 blockquote {
-	margin: 0 2.5em;
+	margin: 0 1.0em;
 	color: #737373;
 }
 address {
@@ -381,9 +389,8 @@ a:active {
 .main-navigation {
 	clear: both;
 	display: block;
-	float: right;
+	float: center;
 	width: 100%;
-	margin-right: 50px;
 }
 .main-navigation ul {
 	list-style: none;
@@ -391,7 +398,7 @@ a:active {
 	padding-left: 0;
 }
 .main-navigation li {
-	float: right;
+	float: center;
 	position: relative;
 }
 .main-navigation a {
@@ -403,7 +410,7 @@ a:active {
 	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 	display: none;
-	float: right;
+	float: center;
 	position: absolute;
 		top: 1.5em;
 		left: 0;

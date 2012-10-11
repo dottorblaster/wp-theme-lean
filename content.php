@@ -8,12 +8,12 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div id="post-contain">
 	<header class="entry-header">
+		<div class="entry-posted">
+			<?php lean_posted_on(); ?>
+		</div><!-- .entry-posted -->
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'lean' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php lean_posted_on(); ?>
-		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
@@ -55,8 +55,8 @@
 		<?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
 		<span class="comments-link"><?php comments_popup_link( __( 'Commenta', 'lean' ), __( '1 Commento', 'lean' ), __( '% Commenti', 'lean' ) ); ?></span>
 		<?php endif; ?>
-		-	
-		<?php edit_post_link( __( 'Edit', 'lean' ), '<span class="edit-link">', '</span>' ); ?>
+
+		<?php edit_post_link( __( 'Edit', 'lean' ), '- <span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
 	</div>
 </article><!-- #post-<?php the_ID(); ?> -->

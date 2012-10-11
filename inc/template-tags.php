@@ -123,7 +123,7 @@ if ( ! function_exists( 'lean_posted_on' ) ) :
  * @since Lean 1.0
  */
 function lean_posted_on() {
-	printf( __( 'Posted on <time class="entry-date" datetime="%3$s" pubdate>%4$s</time>', 'lean' ),
+	printf( __( '<time class="entry-date" datetime="%3$s" pubdate>%4$s</time>', 'lean' ),
 		esc_url( get_permalink() ),
 		esc_attr( get_the_time() ),
 		esc_attr( get_the_date( 'c' ) ),

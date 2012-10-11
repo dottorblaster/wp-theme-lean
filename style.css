@@ -463,6 +463,12 @@ a:active {
 	clear: both;
 	font-size: 14px;
 }
+.entry-posted {
+	clear: both;
+	font-size: 12px;
+	float:right;
+	margin-right: 10px;
+}
 .byline {
 	display: none;
 }
@@ -480,8 +486,8 @@ a:active {
 }
 
 .entry-title {
-	font-size: 40px;
-	text-align:left;
+	font-size: 28px;
+	text-align:center;
 }
 
 .entry-content a {

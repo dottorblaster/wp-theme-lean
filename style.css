@@ -31,7 +31,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: Asul, sans-serif;
+	font-family: Open Sans, sans-serif;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
@@ -63,19 +63,22 @@ body {
 	margin-right: auto;
 	padding-left:10px;
 	padding-right:10px;
+	font-weight: 400;
+	font-size:14px;
 }
 
 #masthead {
 	text-align: center;
-	font-size: 12px;
+	font-size: 10px;
 	margin-bottom: 70px;
 	margin-top: 5px;
 }
 
 #colophon {
-	margin-top: 10px;
-	font-size: 12px;
+	margin-top: 20px;
+	font-size: 10px;
 	text-align: center;
+	margin-bottom: 10px;
 }
 
 article,
@@ -461,11 +464,11 @@ a:active {
 }
 .entry-meta {
 	clear: both;
-	font-size: 14px;
+	font-size: 12px;
 }
 .entry-posted {
 	clear: both;
-	font-size: 12px;
+	font-size: 10px;
 	float:right;
 	margin-right: 10px;
 }
@@ -486,6 +489,7 @@ a:active {
 }
 
 .entry-title {
+	font-weight:300;
 	font-size: 28px;
 	text-align:center;
 }

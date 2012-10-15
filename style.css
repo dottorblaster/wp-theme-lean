@@ -81,6 +81,12 @@ body {
 	margin-bottom: 10px;
 }
 
+#desc-header {
+	text-align: center;
+	font-weight: 300;
+	font-size:12px;
+}
+
 article,
 aside,
 details,

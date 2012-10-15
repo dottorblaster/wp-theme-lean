@@ -56,6 +56,9 @@
 		<hgroup>
 			<h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="/wp-content/themes/lean/img/logo.png"></a></h1>
 		</hgroup>
+
+		<div id="desc-header">di <a href="http://dottorblaster.it/about-alessio-biancalana/">Alessio Biancalana</a></div>
+		
 	</header><!-- #masthead .site-header -->
 
 	<div id="main" class="site-main">
